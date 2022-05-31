@@ -3,9 +3,14 @@
 This is the fist assignment given on Data Structures and Algorithms class. We needed to implement a linked list of int type from scratch.
 The following program will include the methods:
 
--> add()
+-> add() 
+
 -> remove()
--> size()
--> contain()
--> toString()
+
+-> size() 
+
+-> contain() 
+
+-> toString() 
+
 -> compare()  : it will compare to given linked lists
