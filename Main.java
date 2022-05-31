@@ -133,9 +133,7 @@ class LinkedList {
 	 */
 	static public class Node{
 		
-		//Originally I wrote just these two variables as in class notes but I created a 
-		//constructor to define the variables of a new node.
-		//Reference: linkedlist code form class
+		
 		int element;
 		Node next;		
 	
@@ -145,7 +143,7 @@ class LinkedList {
 	Node head = null;//erased static part
 	
 	
-	//it works used the class code as reference
+	
 	/**
 	 * #2 Add method which append new elements to the head of the linkedlist
 	 * @param element
@@ -201,8 +199,6 @@ class LinkedList {
 		}
 		*/
 		
-		//I watched a video and decided to add this condition inside the following if statement and while loop
-		//Reference: Data Structures: Linked Lists youtube video, https://www.youtube.com/watch?v=njTh_OwMljA
 		
 		//Case when linkedlist has only one element and it is the same as given element	
 	    if(head!=null && head.element==element) {
@@ -252,8 +248,7 @@ class LinkedList {
 		 } 
 		return counter;*/
 	
-	//afte today's class i learnt that this is not the fastest way to write size() method, it is better to add the counter in add method, check 
-	//if linkedlist is empty first, i will edit code
+	
 	return getCounter();
 	
 	}
